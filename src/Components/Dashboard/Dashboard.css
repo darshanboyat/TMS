@@ -1,0 +1,90 @@
+.link-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    z-index: 1 !important;
+}
+
+.chart-container {
+    background-color: #ebf6f7;
+    max-width: 78.8%;
+    border-radius: .75rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 17rem;
+    display: block;
+
+}
+
+.dashboard-label {
+    font-family: 'Gilroy-Bold';
+}
+.logined-nav{
+    max-width: 100% !important;
+}
+.date{
+    margin-left: 20%;
+    align-items: center;
+    padding-top: 10%;
+}
+.operation-handels{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 20% !important;
+    width: 90%;
+    justify-content: center;
+}
+.operation-handels img{
+    border-radius: .75rem;
+    width: 25rem;
+    height: 20vh;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.operation-heading{
+    color: black;
+}
+.last-operation-img{
+    margin-left: -40% !important;
+    margin-top: 1rem;
+    height: 20vh;
+    width: 200% !important;
+}
+.dashboard-heading{
+    margin-left: 10rem !important;
+    font-weight: bold !important;
+}
+@media screen and (max-width: 640px){
+    .chart-container {
+        background-color: #ebf6f7;
+        max-width: 95%;
+        min-width: 95%;
+        border-radius: .75rem;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: .5rem;
+        overflow-x: hidden;
+    }
+    .dashboard-heading{
+        margin-left: 0rem !important;
+        font-weight: bold !important;
+    }
+    .operation-handels{
+        display: flex;
+        flex-wrap: wrap;
+        padding-left: 0% !important;
+        width: 100%;
+    }
+    .operation-handels img{
+        width: 20rem;
+        border-radius: .75rem;
+        margin-left: 0rem;
+        height: 20vh;
+    }
+    .last-operation-img{
+        margin-left: -6rem !important;
+        margin-top: 1rem;
+        width: 240% !important;
+        height: 20vh;
+    }
+}

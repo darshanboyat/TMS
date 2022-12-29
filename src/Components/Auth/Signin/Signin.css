@@ -1,0 +1,139 @@
+.signing-blank{
+    background-color: #0c4d71 !important;
+    height: 100vh
+}
+.signin-container{
+    height: 50vh;
+    width: 100%;
+    padding: 0%;
+    padding-left: 5%;
+    text-align: left;
+    margin-top: 20%;
+    box-shadow: none !important;
+}
+.signin-form-container{
+    display: flex;
+    flex-direction: column;
+}
+.signin-form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    min-width: 100%;
+    height: auto;
+    margin: auto;
+    margin-top: 10%;
+    align-items: center;
+    text-align: left;
+}
+.input-wrapper{
+    display: flex;
+    flex-direction: column;
+    min-width: 100%;
+    padding-left: 5%;
+}
+.signin-input-field{
+    width: 70%;
+    height: 5vh;
+    margin-bottom: 5%;
+    border: none;
+    outline: none;
+    border-radius: .75rem;
+    background-color: #e8f0fe;
+}
+.signin-input-field::placeholder{
+    padding-left: 5%;
+}
+.forgot-password{
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    justify-content: right;
+    margin: -4% 0% 2% 0% !important;
+    width: 70%;
+}
+.signin-btn{
+    background-color: #0c4d71;
+    color: white;
+    padding: .75rem 6rem;
+    border: none;
+    border-radius: .75rem;
+    min-width: 70%;
+    margin-right: 25%;
+    cursor: pointer;
+}
+.login-option-text{
+    margin-right: 24% !important;
+    margin-top: 2% !important;
+}
+.signup-link{
+    font-size: small;
+    font-weight: bold;
+    display: flex;
+    justify-content: center;
+    margin-top: 5% !important;
+    margin-right: 25% !important;
+    width: 60%;
+
+}
+
+@media screen and (max-width: 640px) {
+    .signing-blank{
+        display: none;
+    }
+    .signin-main-container{
+        min-width: 100%;
+        padding: 10% 5%;
+    }
+    .signin-container{
+        padding: 10%;
+        overflow: hidden !important;
+        height: 100vh;
+    }
+    .signin-form{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    .input-wrapper{
+        display: flex;
+        flex-direction: column;
+        min-width: 100%;
+        padding-left: 0%;
+    }
+    .signin-input-field{
+        width: 90%;
+        height: 5vh;
+        margin-bottom: 10%;
+        border: none;
+        border-radius: .75rem;
+    }
+    .forgot-password{
+        font-size: small;
+        font-weight: bold;
+        display: flex;
+        justify-content: right;
+        margin: -4% 0% 6% 0% !important;
+        width: 90%;
+    }
+    .signin-btn{
+        background-color: #0c4d71;
+        color: white;
+        padding: .75rem 5rem;
+        border: none;
+        border-radius: .75rem;
+        min-width: 90%;
+        margin-right: 10%;
+    }
+    .login-option-text{
+        margin-right: 10% !important;
+        margin-top: 2% !important;
+    }
+    .signup-link{
+        display: flex;
+        justify-content: right;
+        width: 65%;
+        margin-top: 5% !important;
+        margin-right: 10% !important;
+    }
+}

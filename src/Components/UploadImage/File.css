@@ -1,0 +1,53 @@
+.custom-file-input{
+    opacity: 0;
+    z-index: 999 !important;
+    position: relative;
+    padding: 10%;
+}
+.file-input{
+    background-color: white;
+    min-width: 30% !important;
+    max-width: 30% !important;
+    min-height: 20vh !important;
+    overflow: hidden;
+    border-radius: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    position: relative;
+    margin-left: 30rem;
+    box-shadow: 1px 2px 3px black;
+    margin-top: 1rem;
+}
+.file-add-icon{
+    position: absolute;  
+    top: 30%;
+    left: 45%;
+    z-index: 999;
+    font-size: xx-large;
+}
+.file-upload-title{
+    position: absolute;  
+    top: 50%;
+    left: 30%;
+    z-index: 999;
+    font-size: small;
+}
+
+@media screen and (max-width: 640px){
+    .file-input{
+        background-color: white;
+        min-width: 92% !important;
+        max-width: 92% !important;
+        min-height: 20vh !important;
+        overflow: hidden;
+        border-radius: 1rem;
+        justify-content: center;
+        align-items: center;
+        justify-items: center;
+        position: relative;
+        margin-left: 1rem;
+        box-shadow: 1px 2px 3px black;
+        margin-top: 1rem;
+    }
+}

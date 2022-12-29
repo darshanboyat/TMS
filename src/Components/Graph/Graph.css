@@ -1,0 +1,13 @@
+.barchart{
+    display: block;
+}
+
+.bar{
+    width: 10% !important;
+}
+@media screen and (max-width: 640px){
+    .barchart{
+        width: 10% !important;
+        margin-left: 0% !important;
+    }
+}

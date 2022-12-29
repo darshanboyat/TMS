@@ -1,0 +1,39 @@
+.signup-container{
+    margin-top: 8%;
+}
+.auth-header{
+    font-weight: bolder;
+    margin-bottom: -7% !important;
+}
+
+.signup-field{
+    margin-bottom: 0% !important;
+}
+.signup-input-field{
+    margin-bottom: 3%;
+}
+.signin-link{
+    margin-top: 1% !important;
+    font-weight: bold;
+    font-size: small;
+    margin-right: 25% !important;
+}
+.signup-form-container{
+    padding: 0%;
+}
+
+@media screen and (max-width: 640px){
+    .signup-container{
+        margin-top: 10%;
+    }
+    .auth-header{
+        font-weight: bolder;
+        margin-bottom: 0% !important;
+    }
+    .signin-link{
+        margin-top: 5% !important;
+        font-weight: bold;
+        font-size: small;
+        margin-right: 0% !important;
+    }
+}

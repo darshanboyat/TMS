@@ -1,0 +1,31 @@
+.task-card-container{
+    display: flex;
+    overflow: scroll;
+    margin-top: 2rem;
+    overflow-y: hidden;
+}
+.task-card-container::-webkit-scrollbar{
+    width: .5px;
+}
+.task-card-container::-webkit-scrollbar-thumb{
+    background-color: #0c4d71;
+    width: 1px;
+    border-radius: 2rem;
+}
+.task-card-container::-webkit-scrollbar-track{
+    background-color: #5c7a8a;
+    width: 1px;
+    border-radius: 2rem;
+}
+
+.calendar-container{
+    background-color: #ebf6f7;
+    border-radius: 0.75rem !important;
+    max-width: fit-content;
+    padding: 1rem 6rem !important;
+    height: 80vh;
+}
+
+.calender{
+    margin: 2rem 0rem;
+}

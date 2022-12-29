@@ -1,0 +1,71 @@
+.invite-btn {
+    padding: 1rem 1rem;
+    width: fit-content;
+    border-radius: 0.75rem;
+    border: none;
+    outline: none;
+    background-color: #0c4d71;
+    color: white;
+    margin-left: 20rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+
+.add-team-btn {
+    padding: 1.25rem 1rem;
+    width: fit-content;
+    border-radius: 0rem 0.75rem 0.75rem 0rem;
+    border: none;
+    outline: none;
+    background-color: #0c4d71;
+    color: white;
+    margin-left: 0rem;
+    cursor: pointer;
+    margin-top: 0rem;
+}
+.invite-add{
+    min-width: 92% !important;
+    height: 56px;
+    border-radius: 0.3rem 0rem 0rem 0.3rem;
+    border: .01px solid rgb(198, 198, 198);
+    padding-left: 0.5rem;
+}
+.invite-add:focus{
+    border: 1px solid rgb(95, 95, 253);
+    outline: 1px solid blue;
+}
+.invite-add::placeholder{
+    font-size: medium;
+}
+.add-member-container {
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 640px) {
+    .invite-btn {
+        padding: 1rem 1rem;
+        width: fit-content;
+        border-radius: 0.75rem;
+        border: none;
+        outline: none;
+        background-color: #0c4d71;
+        color: white;
+        margin-left: 7rem;
+    }
+    .invite-add{
+        min-width: 83% !important;
+        height: 56px;
+    }
+    .add-team-btn {
+        padding: 1.18rem 1rem;
+        width: fit-content;
+        border-radius: 0rem 0.75rem 0.75rem 0rem;
+        border: none;
+        outline: none;
+        background-color: #0c4d71;
+        color: white;
+        margin-left: rem;
+        cursor: pointer;
+        margin-top: 0rem;
+    }
+}

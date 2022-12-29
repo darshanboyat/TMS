@@ -1,0 +1,28 @@
+.google-btn{
+    border: .5px solid black;
+    max-width: fit-content;
+    border-radius: 2rem;
+    padding: 1.5% 4%;
+    margin-top: 1rem;
+    margin-right: 12rem;
+}
+.google-btn:hover{
+    border: .5px solid black;
+    cursor: pointer;
+}
+
+
+
+@media screen and (max-width: 640px){
+    .google-btn{
+        border: .5px solid black;
+        max-width: fit-content;
+        border-radius: 2rem;
+        padding: 2.5% 4%;
+        margin-top: 1rem;
+        margin-right: 2rem;
+    }
+    .google-btn:hover{
+        border: .5px solid black;
+    }
+}

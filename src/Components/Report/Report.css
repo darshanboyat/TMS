@@ -1,0 +1,9 @@
+.pagination-container {
+    margin-left: 20rem !important;
+}
+
+@media screen and (max-width: 640px) {
+    .pagination-container {
+        margin-left: 0rem !important;
+    }
+}

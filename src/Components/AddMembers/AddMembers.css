@@ -1,0 +1,28 @@
+.invite-btn{
+    padding: 1rem 1rem;
+    width: fit-content;
+    border-radius: 0.75rem;
+    border: none;
+    outline: none;
+    background-color: #0c4d71;
+    color: white;
+    margin-left: 20rem;
+    cursor: pointer;
+    margin-top: 1rem;
+}
+.add-member-container{
+    margin-top: 3rem;
+}
+
+@media screen and (max-width: 640px){
+    .invite-btn{
+        padding: 1rem 1rem;
+        width: fit-content;
+        border-radius: 0.75rem;
+        border: none;
+        outline: none;
+        background-color: #0c4d71;
+        color: white;
+        margin-left: 7rem;
+    }
+}
