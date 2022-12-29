@@ -4,18 +4,25 @@ import Menu from '@mui/material/Menu';
 import MenuItem from '@mui/material/MenuItem';
 import AccountCircleIcon from '@mui/icons-material/AccountCircle';
 import { Typography } from '@mui/material';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import { useState, useEffect } from 'react';
 
 export default function BasicMenu() {
     const [anchorEl, setAnchorEl] = React.useState(null);
     const open = Boolean(anchorEl);
+    const navigate = useNavigate()
     const handleClick = (event) => {
         setAnchorEl(event.currentTarget);
     };
     const handleClose = () => {
         setAnchorEl(null);
+    };
+    const logout = () => {
+        setAnchorEl(null);
+        localStorage.removeItem('auth');
+        localStorage.removeItem('token');
+        navigate('/auth/signin');
     };
 
     const [user, setUser] = useState(null)
@@ -58,7 +65,7 @@ export default function BasicMenu() {
             >
                 <Link to="/view/profile" className='link-style'><MenuItem onClick={handleClose}>Profile</MenuItem></Link>
                 <MenuItem onClick={handleClose}>My account</MenuItem>
-                <MenuItem onClick={handleClose}>Logout</MenuItem>
+                <MenuItem onClick={logout}>Logout</MenuItem>
             </Menu>
         </div>
     );
